@@ -1,0 +1,61 @@
+body{
+    background-color: blueviolet;
+  }
+
+  #todosCoches{
+    width: 100%;
+  }
+
+  .coche{
+    display: grid;
+    height: 15%;
+    border: 1px solid yellow;
+    padding: 8px;
+    background-color: #bb5aff;
+  }
+  
+  #img{
+    width: 30%;
+  }
+  #text{
+    width: 75% ;
+    border-left: 1px solid black;
+    padding: 4px;
+    margin: 4px;
+    
+  }
+  #contC{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  2rem;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar img {
+    height: 5rem;
+}
+
+.navbar a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #fb22cf;
+    transform: scale(1.05);
+}
